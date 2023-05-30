@@ -2,7 +2,6 @@
 
 namespace TBNcaptchaGravityAddon\Model\Constructor;
 
-use TBNcaptchaGravityAddon\Controllers\ConfirmationChanger;
 use TBNcaptchaGravityAddon\Controllers\FieldsController;
 use TBNcaptchaGravityAddon\Controllers\PageConstructor;
 use TBNcaptchaGravityAddon\Model\Config;

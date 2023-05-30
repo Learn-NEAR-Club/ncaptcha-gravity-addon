@@ -39,8 +39,8 @@ class NearTransactionField extends \GF_Field_Hidden
             }
 
             foreach ($form['fields'] as $field) {
-                if ($field->type == 'near_transaction' && $field->failed_validation) {
-                    return "<h2 class='gform_submission_error hide_summary'><span class='gform-icon gform-icon--close'></span>Verification with NearCaptcha is failed, please try again.</h2>";
+                if ($field->type == 'nCaptcha_transaction' && $field->failed_validation) {
+                    return "<h2 class='gform_submission_error hide_summary'><span class='gform-icon gform-icon--close'></span>Verification with nCaptcha is failed, please try again.</h2>";
                 }
             }
 

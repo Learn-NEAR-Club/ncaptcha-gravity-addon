@@ -47,19 +47,6 @@ class NearPayableField extends \GF_Field_Hidden
     public function __construct($data = array())
     {
         parent::__construct($data);
-        add_filter('gform_validation_message', function ($message, $form) {
-            if (gf_upgrade()->get_submissions_block()) {
-                return $message;
-            }
-
-            foreach ($form['fields'] as $field) {
-                if ($field->type == 'near_transaction' && $field->failed_validation) {
-                    return "<h2 class='gform_submission_error hide_summary'><span class='gform-icon gform-icon--close'></span>Verification with NearCaptcha is failed, please try again.</h2>";
-                }
-            }
-
-            return $message;
-        }, 10, 2);
     }
 
     public function get_field_input($form, $value = '', $entry = null): string
