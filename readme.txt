@@ -1,4 +1,4 @@
-=== LNC Near Comments ===
+=== nCaptcha Gravity addon  ===
 Tags: Near, comments, nCaptcha, web3, blockchain
 Requires at least: 6.0.1
 Tested up to: 6.2.2
@@ -6,12 +6,12 @@ Stable tag: 0.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-TB NCaptcha Gravity addon is advanced captcha system prevents spam and bots from infiltrating your site,
+nCaptcha Gravity addon is advanced captcha system prevents spam and bots from infiltrating your site,
 by integration with near web3 smart contract with nCaptcha service, integrated to you Gravity Forms plugin.
 
 == Description ==
 
-TB NCaptcha Gravity addon is a part of WordPress integration with web3 near blockchain protocol. This plugin provides a specific captcha for the gravity form
+nCaptcha Gravity addon is a part of WordPress integration with web3 near blockchain protocol. This plugin provides a specific captcha for the gravity form
 forms and approving submissions after a small tip transaction to https://explorer.mainnet.near.org/accounts/v1.ncaptcha.near smart contract. As a site owner, you can earn money with our plugin! Our unique payment system allows you to receive a portion of the payment for each captcha solved by your users. So not only will you be protecting your site, but you'll also be generating extra revenue at the same time.
 Revenue is configurable on your side. So all that you need is get original gravity form and our nCaptcha addon plugin, register near wallet and install it to your site for spam protection, money earning and joining web3!
 
