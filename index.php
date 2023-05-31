@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: TB NCaptcha Gravity addon
+ * Plugin Name: nCaptcha Gravity addon
  * Description: nCaptcha provider for gravity form
  * Version: 0.0.1
  * Author: Techbridge
