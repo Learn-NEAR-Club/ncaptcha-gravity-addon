@@ -1,6 +1,6 @@
 <?php
 
-namespace TBNcaptchaGravityAddon\Model\Fields;
+namespace LNCNcaptchaGravityAddon\Model\Fields;
 
 class NearTransactionField extends \GF_Field_Hidden
 {
@@ -20,7 +20,7 @@ class NearTransactionField extends \GF_Field_Hidden
 
     public function get_form_editor_field_title(): string
     {
-        return esc_attr__('nCaptcha Transaction', 'tb-ncaptcha-gravity-addon');
+        return esc_attr__('nCaptcha Transaction', 'lnc-ncaptcha-gravity-addon');
     }
 
     public function get_form_editor_button(): array

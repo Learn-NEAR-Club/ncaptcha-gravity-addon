@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'TBNcaptchaGravityAddon\\' => array($baseDir . '/'),
+    'LNCNcaptchaGravityAddon\\' => array($baseDir . '/'),
 );

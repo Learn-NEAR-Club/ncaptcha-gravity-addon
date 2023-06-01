@@ -1,4 +1,4 @@
-=== nCaptcha Gravity addon  ===
+=== LNC nCaptcha Gravity addon  ===
 Tags: Near, comments, nCaptcha, web3, blockchain
 Requires at least: 6.0.1
 Tested up to: 6.2.2
@@ -18,7 +18,7 @@ Revenue is configurable on your side. So all that you need is get original gravi
 == Installation ==
 1. Install core gravity form plugin from https://www.gravityforms.com/
 2. (Optional) Install our core login with near plugin to synchronize user wallets with your site https://wordpress.org/plugins/near-login/. This plugin also works without this step.
-2. Upload the plugin files to the `/wp-content/plugins/tb-ncaptcha-gravity-addon` directory, or install the plugin through the WordPress plugins screen directly.
+2. Upload the plugin files to the `/wp-content/plugins/lnc-ncaptcha-gravity-addon` directory, or install the plugin through the WordPress plugins screen directly.
 3. Activate the gravity form plugin and this plugin through the 'Plugins' screen in WordPress.
 4. Provide your wallet, reward value to n_captcha_config settings
 5. Create gravity form with nCaptcha and nCaptcha transaction fields

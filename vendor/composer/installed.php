@@ -5,18 +5,18 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'e7dc6a9ae43d93415f9d9af29e7c38a27d57a516',
-        'name' => 'tb/tb-ncaptcha-gravity-addon',
+        'reference' => '3fb2453f18a05c9d1351cbcd112c48196e7ac2ad',
+        'name' => 'lnc/ncaptcha-gravity-addon',
         'dev' => true,
     ),
     'versions' => array(
-        'tb/tb-ncaptcha-gravity-addon' => array(
+        'lnc/ncaptcha-gravity-addon' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'e7dc6a9ae43d93415f9d9af29e7c38a27d57a516',
+            'reference' => '3fb2453f18a05c9d1351cbcd112c48196e7ac2ad',
             'dev_requirement' => false,
         ),
     ),

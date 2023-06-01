@@ -1,16 +1,16 @@
 <?php
 
-namespace TBNcaptchaGravityAddon\Model\Constructor;
+namespace LNCNcaptchaGravityAddon\Model\Constructor;
 
-use TBNcaptchaGravityAddon\Controllers\FieldsController;
-use TBNcaptchaGravityAddon\Controllers\PageConstructor;
-use TBNcaptchaGravityAddon\Model\Config;
+use LNCNcaptchaGravityAddon\Controllers\FieldsController;
+use LNCNcaptchaGravityAddon\Controllers\PageConstructor;
+use LNCNcaptchaGravityAddon\Model\Config;
 
 /**
  * Init all main functionality
  *
  * Class Constructor
- * @package TBNcaptchaGravityAddon\Model\Constructor
+ * @package LNCNcaptchaGravityAddon\Model\Constructor
  */
 class Constructor
 {
@@ -68,7 +68,7 @@ class Constructor
     {
         $this->config = new Config();
         new PageConstructor($this->config);
-        self::$options = apply_filters('getTBNCaptchaOptions', 'options');
+        self::$options = apply_filters('getLNCNCaptchaOptions', 'options');
 
         $this->setUpActions();
     }
@@ -83,7 +83,7 @@ class Constructor
     public function addScripts(): void
     {
         wp_enqueue_script(
-            'tb-n-captcha-gravity-addon',
+            'lnc-n-captcha-gravity-addon',
             $this->config->getScriptsPath() . 'index.js',
             ['jquery'],
             time(),
@@ -126,7 +126,7 @@ class Constructor
 
     public function modifyTransactionView($content, $field, $value, $leadID, $formID)
     {
-        if ($field->type == 'near_transaction') {
+        if ($field->type == 'nCaptcha_transaction') {
             $content = '
                         <tr>
                             <td colspan="2" class="entry-view-field-name">nCaptcha Transaction</td>
@@ -144,7 +144,7 @@ class Constructor
         $form = \GFAPI::get_form($formID);
         $field = \GFFormsModel::get_field($form, $fieldID);
 
-        if ($field->type == 'near_transaction') {
+        if ($field->type == 'nCaptcha_transaction') {
             $value = "<a href='https://explorer.mainnet.near.org/transactions/{$value}'>{$value}</a>";
         }
 

@@ -1,18 +1,18 @@
 <?php
 
-namespace TBNcaptchaGravityAddon\Model\Constructor;
+namespace LNCNcaptchaGravityAddon\Model\Constructor;
 
-use TBNcaptchaGravityAddon\Model\Abstractions\AdminPages;
-use TBNcaptchaGravityAddon\Helper\View;
-use TBNcaptchaGravityAddon\Model\Config;
+use LNCNcaptchaGravityAddon\Model\Abstractions\AdminPages;
+use LNCNcaptchaGravityAddon\Helper\View;
+use LNCNcaptchaGravityAddon\Model\Config;
 
 /**
  * Class ConfigPage
- * @package TBNcaptchaGravityAddon\Model\Constructor
+ * @package LNCNcaptchaGravityAddon\Model\Constructor
  */
 class ConfigPage extends AdminPages
 {
-    const OPTIONS_GROUP = 'tb-n-captcha-config';
+    const OPTIONS_GROUP = 'lnc-n-captcha-config';
     const FILE_EXTENSION = 'php';
 
     private Config $config;
@@ -40,7 +40,7 @@ class ConfigPage extends AdminPages
 
     public function setUp(): void
     {
-        add_filter('getTBNCaptchaOptions', [$this, 'getOptions']);
+        add_filter('getLNCNCaptchaOptions', [$this, 'getOptions']);
         add_action('admin_init', [$this, 'registerSettings']);
     }
 

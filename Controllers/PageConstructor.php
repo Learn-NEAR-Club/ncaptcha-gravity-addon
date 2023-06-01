@@ -1,12 +1,12 @@
 <?php
 
-namespace TBNcaptchaGravityAddon\Controllers;
+namespace LNCNcaptchaGravityAddon\Controllers;
 
-use TBNcaptchaGravityAddon\Model\Constructor\ConfigPage;
+use LNCNcaptchaGravityAddon\Model\Constructor\ConfigPage;
 
 /**
  * Class PageConstructor
- * @package TBNcaptchaGravityAddon
+ * @package LNCNcaptchaGravityAddon
  */
 class PageConstructor
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace TBNcaptchaGravityAddon\Model\Abstractions;
+namespace LNCNcaptchaGravityAddon\Model\Abstractions;
 
 /**
  * Class AdminPages
  *
- * @package TBNcaptchaGravityAddon\Model\Abstractions
+ * @package LNCNcaptchaGravityAddon\Model\Abstractions
  */
 abstract class AdminPages
 {

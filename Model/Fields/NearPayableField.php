@@ -1,8 +1,8 @@
 <?php
 
-namespace TBNcaptchaGravityAddon\Model\Fields;
+namespace LNCNcaptchaGravityAddon\Model\Fields;
 
-use TBNcaptchaGravityAddon\Model\Constructor\Constructor;
+use LNCNcaptchaGravityAddon\Model\Constructor\Constructor;
 
 class NearPayableField extends \GF_Field_Hidden
 {
@@ -15,9 +15,9 @@ class NearPayableField extends \GF_Field_Hidden
         $settings[] = [
             'nCaptchaOwner' => [
                 'type' => 'text',
-                'label' => esc_html__('nCaptcha Owner', 'tb-ncaptcha-gravity-addon'),
+                'label' => esc_html__('nCaptcha Owner', 'lnc-ncaptcha-gravity-addon'),
                 'name' => 'nCaptchaOwner',
-                'tooltip' => esc_html__('Specify the owner of the nCaptcha field.', 'tb-ncaptcha-gravity-addon'),
+                'tooltip' => esc_html__('Specify the owner of the nCaptcha field.', 'lnc-ncaptcha-gravity-addon'),
             ],
         ];
 
@@ -33,7 +33,7 @@ class NearPayableField extends \GF_Field_Hidden
 
     public function get_form_editor_field_title(): string
     {
-        return esc_attr__('nCaptcha', 'tb-ncaptcha-gravity-addon');
+        return esc_attr__('nCaptcha', 'lnc-ncaptcha-gravity-addon');
     }
 
     public function get_form_editor_button(): array

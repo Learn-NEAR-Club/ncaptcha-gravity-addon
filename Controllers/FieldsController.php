@@ -1,9 +1,9 @@
 <?php
 
-namespace TBNcaptchaGravityAddon\Controllers;
+namespace LNCNcaptchaGravityAddon\Controllers;
 
-use TBNcaptchaGravityAddon\Model\Fields\NearPayableField;
-use TBNcaptchaGravityAddon\Model\Fields\NearTransactionField;
+use LNCNcaptchaGravityAddon\Model\Fields\NearPayableField;
+use LNCNcaptchaGravityAddon\Model\Fields\NearTransactionField;
 class FieldsController
 {
     public function __construct()

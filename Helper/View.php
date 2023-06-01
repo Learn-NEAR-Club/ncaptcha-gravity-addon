@@ -1,13 +1,13 @@
 <?php
 
-namespace TBNcaptchaGravityAddon\Helper;
+namespace LNCNcaptchaGravityAddon\Helper;
 
-use TBNcaptchaGravityAddon\Model\Config;
+use LNCNcaptchaGravityAddon\Model\Config;
 
 /**
  * Class View
  *
- * @package TBNcaptchaGravityAddon\Helper
+ * @package LNCNcaptchaGravityAddon\Helper
  */
 class View
 {

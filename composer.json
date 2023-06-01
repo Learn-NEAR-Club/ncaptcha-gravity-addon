@@ -1,5 +1,5 @@
 {
-  "name": "tb/tb-ncaptcha-gravity-addon",
+  "name": "lnc/ncaptcha-gravity-addon",
   "description": "nCaptcha",
   "license": "MIT",
   "authors": [
@@ -13,7 +13,7 @@
   },
   "autoload": {
     "psr-4": {
-      "TBNcaptchaGravityAddon\\": ""
+      "LNCNcaptchaGravityAddon\\": ""
     }
   }
 }

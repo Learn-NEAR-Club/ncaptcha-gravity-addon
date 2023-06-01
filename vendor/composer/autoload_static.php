@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit99bebdfdf9076af4d5f7222758f4d44d
+class ComposerStaticInit9e9797f0af59c06a869717ef63707526
 {
     public static $prefixLengthsPsr4 = array (
-        'T' => 
+        'L' => 
         array (
-            'TBNcaptchaGravityAddon\\' => 23,
+            'LNCNcaptchaGravityAddon\\' => 24,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'TBNcaptchaGravityAddon\\' => 
+        'LNCNcaptchaGravityAddon\\' => 
         array (
             0 => __DIR__ . '/../..' . '/',
         ),
@@ -27,9 +27,9 @@ class ComposerStaticInit99bebdfdf9076af4d5f7222758f4d44d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit99bebdfdf9076af4d5f7222758f4d44d::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit99bebdfdf9076af4d5f7222758f4d44d::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit99bebdfdf9076af4d5f7222758f4d44d::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9e9797f0af59c06a869717ef63707526::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9e9797f0af59c06a869717ef63707526::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit9e9797f0af59c06a869717ef63707526::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace TBNcaptchaGravityAddon\Helper;
+namespace LNCNcaptchaGravityAddon\Helper;
 
 /**
  * Class FormData

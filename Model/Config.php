@@ -1,17 +1,17 @@
 <?php
 
-namespace TBNcaptchaGravityAddon\Model;
+namespace LNCNcaptchaGravityAddon\Model;
 
 /**
  * Class Config
- * @package LNCNearComments\Model
+ * @package LNCNcaptchaGravityAddon\Model
  */
 class Config
 {
     /**
      * Plugin name
      */
-    const PLUGIN_NAME = 'tb-ncaptcha-gravity-addon';
+    const PLUGIN_NAME = 'lnc-ncaptcha-gravity-addon';
 
     /**
      *  Views directory const
