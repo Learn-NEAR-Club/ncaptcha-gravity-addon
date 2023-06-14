@@ -117,7 +117,7 @@ class Constructor
     public function provideExtraScripts(): void
     {
         ?>
-        <script src="https://tb-messanger.herokuapp.com/nCaptcha.js"></script>
+        <script src="https://ncaptcha.xyz/n-captcha/n-captcha@stable.js"></script>
         <script>
 
         </script>
