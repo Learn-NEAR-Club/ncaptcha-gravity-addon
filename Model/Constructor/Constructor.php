@@ -101,7 +101,6 @@ class Constructor
      */
     private function setUpActions(): void
     {
-        add_action('wp_head', [&$this, 'provideExtraScripts']);
         add_action('init', [&$this, 'addFrontendStuffs']);
 
         if (is_admin()) {
@@ -112,16 +111,6 @@ class Constructor
         if (!is_admin()) {
             add_action('init', [$this, 'addScripts']);
         }
-    }
-
-    public function provideExtraScripts(): void
-    {
-        ?>
-        <script src="https://ncaptcha.xyz/n-captcha/n-captcha@stable.js"></script>
-        <script>
-
-        </script>
-        <?php
     }
 
     public function modifyTransactionView($content, $field, $value, $leadID, $formID)

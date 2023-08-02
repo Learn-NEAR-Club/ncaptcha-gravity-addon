@@ -36,3 +36,8 @@ Revenue is configurable on your side. So all that you need is get original gravi
 1. Compatibility: Our plugin has been tested and designed to work with the latest version of WordPress. It is important that you update your WordPress installation before using our plugin to ensure compatibility.
 2. Dependencies: Our plugin require https://www.gravityforms.com/ to function properly. Please refer to the plugin documentation for any necessary dependencies and installation instructions.
 3. Specific behavior: 70% functionality of plugin based on client javascript. So please keep in mind, that without enabled javascript nCaptcha will not protect your forms.
+
+== Changelog ==
+
+= 0.0.1 =
+* Initial release.

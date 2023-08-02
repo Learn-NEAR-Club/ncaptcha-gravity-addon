@@ -1,13 +1,15 @@
 <?php
 /**
- * Plugin Name: nCaptcha Gravity addon
- * Description: nCaptcha provider for gravity form
+ * Plugin Name: LNC nCaptcha Gravity addon
+ * Description: LNC nCaptcha Gravity addon provider for gravity form
  * Version: 0.0.1
  * Author: LNC
  * Author URI: http://learnnear.club/
  */
 
 use LNCNcaptchaGravityAddon\Model\Constructor\Constructor;
+
+if (!defined('ABSPATH')) exit; // Exit if accessed directly
 
 if (!function_exists('is_plugin_active')) {
     include_once(ABSPATH . 'wp-admin/includes/plugin.php');

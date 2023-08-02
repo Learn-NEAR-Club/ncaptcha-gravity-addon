@@ -1,4 +1,5 @@
 <?php
+if (!defined('ABSPATH')) exit; // Exit if accessed directly
 
 use LNCNcaptchaGravityAddon\Model\Constructor\Constructor;
 
@@ -27,13 +28,15 @@ ob_start();
             <div class="form-table">
                 <div class="form-group">
                     <label for="site-owner"><?php _e('nCaptcha owner'); ?></label>
-                    <input type="text" id="nCaptcha-owner" name="<?php echo esc_html("$args->optionsGroup[nCaptcha_owner]"); ?>"
+                    <input type="text" id="nCaptcha-owner"
+                           name="<?php echo esc_html("$args->optionsGroup[nCaptcha_owner]"); ?>"
                            value="<?php echo esc_html($nCaptchaOwner); ?>" class="regular-text"/>
                 </div>
             </div>
             <div class="form-table">
                 <div class="form-group">
-                    <button type="submit" class="button button-primary button-large"><?php _e('Save', 'lnc-ncaptcha-gravity-addon'); ?></button>
+                    <button type="submit"
+                            class="button button-primary button-large"><?php _e('Save', 'lnc-ncaptcha-gravity-addon'); ?></button>
                 </div>
             </div>
         </form>
