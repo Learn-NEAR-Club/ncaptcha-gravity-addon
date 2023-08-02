@@ -1,2 +1,6 @@
 node_modules
 idea
+package.json
+package-lock.json
+composer.lock
+app.js
