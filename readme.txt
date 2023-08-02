@@ -1,4 +1,4 @@
-=== LNC nCaptcha Gravity addon  ===
+=== LNC nCaptcha Add-on for Gravity Forms  ===
 Tags: Near, comments, nCaptcha, web3, blockchain
 Requires at least: 6.0.1
 Tested up to: 6.2.2

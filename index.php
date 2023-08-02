@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: LNC nCaptcha Gravity addon
- * Description: LNC nCaptcha Gravity addon provider for gravity form
+ * Plugin Name: LNC nCaptcha Add-on for Gravity Forms
+ * Description: LNC nCaptcha Add-on for Gravity Forms provides nCaptcha for gravity form
  * Version: 0.0.1
  * Author: LNC
  * Author URI: http://learnnear.club/
